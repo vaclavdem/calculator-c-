@@ -1,0 +1,169 @@
+﻿  test.cpp
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5): error C3861: ParsingAnExample: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5): error C2672: "testing::internal::EqHelper<true>::Compare": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "/test.cpp")
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1516,26):
+      может быть "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5):
+          'testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)': не удалось вывести аргумент шаблон для 'T *' из 'std::vector<std::string,std::allocator<std::string>>'
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1499,26):
+      или       "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5):
+          Сбой при специализации функции-шаблона "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+              C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5):
+              Со следующими аргументами шаблона:
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5):
+                  "T1=unknown-type"
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5):
+                  "T2=std::vector<std::string,std::allocator<std::string>>"
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(8,5): error C2737: "gtest_ar": необходимо инициализировать объект const
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5): error C3861: ParsingAnExample: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5): error C2672: "testing::internal::EqHelper<true>::Compare": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "/test.cpp")
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1516,26):
+      может быть "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5):
+          'testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)': не удалось вывести аргумент шаблон для 'T *' из 'std::vector<std::string,std::allocator<std::string>>'
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1499,26):
+      или       "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5):
+          Сбой при специализации функции-шаблона "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+              C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5):
+              Со следующими аргументами шаблона:
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5):
+                  "T1=unknown-type"
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5):
+                  "T2=std::vector<std::string,std::allocator<std::string>>"
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(9,5): error C2737: "gtest_ar": необходимо инициализировать объект const
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5): error C3861: ParsingAnExample: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5): error C2672: "testing::internal::EqHelper<true>::Compare": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "/test.cpp")
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1516,26):
+      может быть "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5):
+          'testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)': не удалось вывести аргумент шаблон для 'T *' из 'std::vector<std::string,std::allocator<std::string>>'
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1499,26):
+      или       "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5):
+          Сбой при специализации функции-шаблона "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+              C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5):
+              Со следующими аргументами шаблона:
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5):
+                  "T1=unknown-type"
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5):
+                  "T2=std::vector<std::string,std::allocator<std::string>>"
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(10,5): error C2737: "gtest_ar": необходимо инициализировать объект const
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5): error C3861: ParsingAnExample: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5): error C2672: "testing::internal::EqHelper<true>::Compare": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "/test.cpp")
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1516,26):
+      может быть "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5):
+          'testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,testing::internal::Secret *,T *)': не удалось вывести аргумент шаблон для 'T *' из 'std::vector<std::string,std::allocator<std::string>>'
+      C:\Users\vatsl\source\repos\calc\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.1.7\build\native\include\gtest\gtest.h(1499,26):
+      или       "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+          C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5):
+          Сбой при специализации функции-шаблона "testing::AssertionResult testing::internal::EqHelper<true>::Compare(const char *,const char *,const T1 &,const T2 &,EnableIf<!testing::internal::is_pointer<T2>::value>::type *)"
+              C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5):
+              Со следующими аргументами шаблона:
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5):
+                  "T1=unknown-type"
+                  C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5):
+                  "T2=std::vector<std::string,std::allocator<std::string>>"
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(11,5): error C2737: "gtest_ar": необходимо инициализировать объект const
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(16,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(17,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(18,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(19,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(23,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(24,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(25,5): error C3861: StringToFloat: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(30,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(31,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(32,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(33,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): warning C4244: аргумент: преобразование "double" в "RawType", возможна потеря данных
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): warning C4244:         with
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): warning C4244:         [
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): warning C4244:             RawType=float
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(34,5): warning C4244:         ]
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(38,5): error C3861: Calculate: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(43,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(44,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(45,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(46,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(50,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(51,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(52,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(56,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(57,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
+C:\Users\vatsl\source\repos\calc\g-test\test.cpp(58,5): error C3861: EvaluateExpression: идентификатор не найден
+  (компиляция исходного файла "/test.cpp")
+  
